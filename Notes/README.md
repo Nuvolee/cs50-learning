@@ -68,6 +68,9 @@ Date: 2026-06-04
 ```
 
 
+
+
+
 # 关于GitHub Alert
 ## Note
 > [!NOTE]
@@ -138,4 +141,54 @@ Date: 2026-06-04
 > CAUTION 2
 ```
 
+
+
+
+
+
+
+# Mermaid
+## 上下、左右
+```mermaid
+flowchart LR
+A[开始] --> B[第一步]
+B --> C[第二步]
+C --> D[第三步]
+D --> E[结束]
+```
+
+> [!TIP]
+> LR = Left to Right  
+> TD = Top to Down
+
+
+```text
+```mermaid
+flowchart LR
+A[开始] --> B[第一步]
+B --> C[第二步]
+C --> D[第三步]
+D --> E[结束]
+```
+
+
+## 判断分支
+```mermaid
+flowchart TD
+A[输入密码]
+A --> B{密码正确?}
+
+B -->|是| C[进入系统]
+B -->|否| D[重新输入]
+```
+
+```
+```mermaid
+flowchart TD
+A[输入密码]
+A --> B{密码正确?}
+
+B -->|是| C[进入系统]
+B -->|否| D[重新输入]
+```
 
