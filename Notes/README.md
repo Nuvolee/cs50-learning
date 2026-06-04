@@ -1,7 +1,21 @@
+# 头
+---
+Title: CS50 Week0 - Scratch
+Labels: 随笔
+Keywords: Scratch, CS50
+Date: 2026-06-04
 ---
 
-Date:2026-6-4
+
+
+```
 ---
+Title: CS50 Week0 - Scratch
+Labels: 随笔
+Keywords: Scratch, CS50
+Date: 2026-06-04
+---
+```
 
 
 # 关于md语言
@@ -124,3 +138,5 @@ Date:2026-6-4
 > 删除数据库前务必备份数据。  
 > CAUTION 2
 ```
+
+
