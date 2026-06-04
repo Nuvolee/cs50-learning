@@ -1,6 +1,6 @@
 # 头
 ---
-Title: CS50 Week0 - Scratch
+Title: CS50 Week0 - Scratch  
 Labels: 随笔
 Keywords: Scratch, CS50
 Date: 2026-06-04
