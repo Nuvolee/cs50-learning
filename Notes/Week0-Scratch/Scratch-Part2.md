@@ -96,6 +96,8 @@ B --> C[小猫：“hello,xxx”]
 <img width="626" height="309" alt="2026-06-04-06" src="https://github.com/user-attachments/assets/8bbaeb60-3209-490e-ae67-725b29534eef" />
 
 
+
+
 ## 永久循环
 <img width="432" height="300" alt="2026-06-04-07" src="https://github.com/user-attachments/assets/afcddeb1-1c87-4083-a75d-55d416761a49" />
 
