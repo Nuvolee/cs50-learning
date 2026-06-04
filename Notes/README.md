@@ -9,9 +9,9 @@ Date: 2026-06-04
 
 ```
 ---
-Title: CS50 Week0 - Scratch
+Title: CS50 Week0 - Scratch - Part1
 Labels: 随笔
-Keywords: Scratch, CS50
+Keywords:  CS50
 Date: 2026-06-04
 ---
 ```
