@@ -152,3 +152,14 @@ make: *** [<builtin>: hello] Error 1
 > [!IMPORTANT]
 > 查找C语言内容的传统方法：查阅官方`技术手册`页，简称`Manual Pages`  
 > `manual.cs50.io`
+---
+
+
+
+
+
+
+
+
+
+
