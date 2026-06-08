@@ -28,6 +28,7 @@ B --> C[machine code]
 用 VS Code 打开（或创建）一个名为 hello.c 的文件  
 
 
+
 ## 编写代码
 ```
 #include <stdio.h>
@@ -52,7 +53,7 @@ hello → 编译后生成的可执行程序
 
 > [!WARNING]
 > 注意是`/`
-
+<br>
 
 
 > [!NOTE]
@@ -60,7 +61,7 @@ hello → 编译后生成的可执行程序
 > `code hello.c`    # 创建或打开 hello.c  
 > `make hello`      # 编译程序  
 > `./hello`         # 运行程序  
----
+<br>
 
 
 # 代码释义
@@ -70,7 +71,7 @@ hello → 编译后生成的可执行程序
 - `""`    打印的开始、结束位置
 - `\n`    换行(转义序列，为了美观)
 - `;`    结束语句  
-
+<br>
 
 
 类似于数学中的函数表示法f(x)
@@ -79,7 +80,6 @@ flowchart LR
 A[arguments 参数] --> B[function 函数]
 B --> C[side effects 副作用]
 ```
----
 
 
 
@@ -138,15 +138,16 @@ make: *** [<builtin>: hello] Error 1
 以.h结尾，而非以.c结尾的文件。  
 这些头文件中包含别人已写好的代码，供你在自己的程序中使用。  
 同理，`printf`是C语言的一个功能特性，但如果想使用它，需要包含相应的库，具体就是`让程序包含定义了该函数的头文件`————`stdio.h`  
+<br>
 
-> [[!WARNING]]
+> [!WARNING]
 > 不要把`stdio.h`写成`studio.h`  
 > standardio.h
-
+<br>
 
 由上可知`#include <stdio.h>`的作用是：  
 告诉编译器，我并没有写所有要用的代码，请从`standardio.h`这个文件里引入`printf`的定义。
-
+<br>
 
 > [!IMPORTANT]
 > 查找C语言内容的传统方法：查阅官方`技术手册`页，简称`Manual Pages`  
