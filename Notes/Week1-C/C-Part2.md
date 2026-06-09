@@ -20,16 +20,16 @@ int main(void)
 
 ## 保存函数的返回值
 `string` `answer` = `get_string("What's u name? ");`  
-- string：返回值的`类型`
-- answer：返回值的`变量名`
-- get_string():函数
-- 返回值的类型  返回值的变量名  =  函数
+- `string`：返回值的`类型`
+- `answer`：返回值的`变量名`
+- `get_string( )`:函数
+返回值的类型  返回值的变量名  =  函数
 
 
 ## 占位符 %s
 printf("hello, `%s`\n"`,` `answer`);
-- %s：占位符
-- answer:要替换占位符的变量
+- `%s`：占位符
+- `answer`:要替换占位符的变量
 - `,`:区分第一个输入和第二个参数
 
 
