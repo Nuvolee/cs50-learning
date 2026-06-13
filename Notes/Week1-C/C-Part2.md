@@ -149,3 +149,94 @@ int main(void)
 }
 ```
 
+
+# loops 循环
+`code cat.c`
+
+```
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Meow\n");
+    printf("Meow\n");
+    printf("Meow\n");
+}
+
+```
+
+`make cat`  
+`$ ./cat
+Meow
+Meow
+Meow`  
+
+
+## while循环修改
+```
+#include <stdio.h>
+
+int main(void)
+{
+    int i = 3;
+    while (i > 0)
+    {
+        printf("Meow\n");
+        i--;
+    }
+}
+```
+
+```
+$ make cat
+$ ./cat
+Meow
+Meow
+Meow
+```
+
+
+## 修改
+```
+#include <stdio.h>
+
+int main(void)
+{
+    int i = 0;
+    while (i < 3)
+    {
+        printf("Meow\n");
+        i++;
+    }
+}
+```
+
+```
+$ make cat
+$ ./cat
+Meow
+Meow
+Meow
+```
+
+## for循环修改
+```
+#include <stdio.h>
+
+int main(void)
+{
+    for (int i = 0; i < 3; i++)
+    {
+        printf("Meow\n");
+    }
+}
+```
+
+```
+$ make cat
+$ ./cat
+Meow
+Meow
+Meow
+```
+
