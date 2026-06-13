@@ -1,5 +1,5 @@
 ---
-Title: CS50 Week1 - C -Part1
+Title: CS50 Week1 - C -Part2
 Labels: 随笔
 Keywords: CS50,C
 Date: 2026-06-09
@@ -35,6 +35,7 @@ printf("hello, `%s`\n"`,` `answer`);
 
 
 
+
 # Linux
 使用CLI命令行界面。
 
@@ -46,10 +47,9 @@ printf("hello, `%s`\n"`,` `answer`);
 |mv 文件名 目标地址/|移动文件|
 |mv 原文件名 新文件名|重命名|
 |cd 目标位置/|切换目录|
+|cp 源文件名 新文件名|复制备份|
 |.|当前文件夹|
 |..|父文件夹(向上返回一级)|
-
-
 
 
 
