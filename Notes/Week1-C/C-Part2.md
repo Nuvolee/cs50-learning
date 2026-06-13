@@ -53,4 +53,99 @@ printf("hello, `%s`\n"`,` `answer`);
 
 
 
+# 计数器
+`code compare.c`  
+
+```
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int x = get_int("What's x? ");
+    int y = get_int("What's y? ");
+
+    if (x < y)
+    {
+        printf("x is less than y\n");
+    }
+
+    else if (x > y)
+    {
+        printf("x is greater than y\n");
+    }
+    else
+    {
+        printf("x is equal to y\n");
+    }
+}
+```
+
+`make compare`  
+`./compare`
+
+
+
+# 
+
+`code agree.c`  
+
+```
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    char c = get_char("Do you agree? ");
+
+    if (c == 'y' )
+    {
+        printf("Agreed.\n");
+    }
+    else if (c == 'n')
+    {
+        printf("Not agreed.\n");
+    }
+}
+```
+
+- if (c == 'y' ) 中使用单引号`'`：在C中，比较单个字符时，用char类型和单引号。
+
+
+`make agree`  
+`./agree`
+
+
+## BUG
+但是如果输入其他内容
+```
+$ ./agree
+Do you agree? No
+Do you agree? Y
+Not agreed.  
+```
+因为`get_char`函数的特点是：获取的数据类型是特定的。  
+
+
+# 逻辑运算符
+`||`    或  
+`&&`    与  
+
+```
+#include <cs50.h>
+#include <stdio.h>
+int main(void)
+{
+    char c = get_char("Do you agree? ");
+
+    if (c == 'y' || c =='Y')
+    {
+        printf("Agreed.\n");
+    }
+    else
+    {
+        printf("Not agreed.\n");
+    }
+}
+```
 
